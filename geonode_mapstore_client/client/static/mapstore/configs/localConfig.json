@@ -183,6 +183,10 @@
         "es": {
             "code": "es-ES",
             "description": "Español"
+        },
+        "ar": {
+            "code": "ar",
+            "description": "Arabic"
         }
     },
     "geoNodeConfiguration": {
