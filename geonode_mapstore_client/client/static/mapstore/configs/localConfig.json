@@ -129,10 +129,26 @@
                                 "filter{owner.pk}": "{state('user') && state('user').pk}"
                             },
                             "authenticated": true
+                        },{
+                            "id": "favorite",
+                            "labelId": "gnhome.favorites",
+                            "type": "filter",
+                            "query": {
+                                "favorite": true
+                            },
+                            "authenticated": true
+                        },
+                        {
+                            "id": "featured",
+                            "labelId": "gnhome.featuredList",
+                            "type": "filter",
+                            "query": {
+                                "filter{featured}": true
+                            }
                         },
                         {
                             "id": "unpublished",
-                            "labelId": "gnhome.unpublished",
+                            "labelId": "gnhome.unpublishedResources",
                             "type": "filter",
                             "query": {
                                 "filter{is_published}": false
@@ -141,7 +157,7 @@
                         },
                         {
                             "id": "pending-approval",
-                            "labelId": "gnhome.pendingApproval",
+                            "labelId": "gnhome.pendingApprovalResources",
                             "type": "filter",
                             "query": {
                                 "filter{is_approved}": false
@@ -221,15 +237,6 @@
                             "query": {
                                 "filter{resource_type.in}": "dashboard"
                             }
-                        },
-                        {
-                            "id": "favorite",
-                            "labelId": "gnhome.favorites",
-                            "type": "filter",
-                            "query": {
-                                "favorite": true
-                            },
-                            "authenticated": true
                         }
                     ]
                 },
