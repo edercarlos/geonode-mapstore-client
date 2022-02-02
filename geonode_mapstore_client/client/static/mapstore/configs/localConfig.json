@@ -148,7 +148,7 @@
                         },
                         {
                             "id": "unpublished",
-                            "labelId": "gnhome.unpublishedResources",
+                            "labelId": "gnhome.unpublished",
                             "type": "filter",
                             "query": {
                                 "filter{is_published}": false
@@ -157,7 +157,7 @@
                         },
                         {
                             "id": "pending-approval",
-                            "labelId": "gnhome.pendingApprovalResources",
+                            "labelId": "gnhome.pendingApproval",
                             "type": "filter",
                             "query": {
                                 "filter{is_approved}": false
