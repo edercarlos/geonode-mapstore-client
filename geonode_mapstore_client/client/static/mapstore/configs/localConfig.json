@@ -313,9 +313,9 @@
                     }
                 ],
                 "style": {
-                    "color": "#397AAB",
+                    "color": "#1b1c1c",
                     "opacity": 0.8,
-                    "fillColor": "#397AAB",
+                    "fillColor": "#1b1c1c",
                     "fillOpacity": 0.4,
                     "weight": 4
                 }
